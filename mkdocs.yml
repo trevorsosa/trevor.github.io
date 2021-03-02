@@ -1,0 +1,3 @@
+site_name: Code Snippets
+markdown_extensions:
+  - attr_list

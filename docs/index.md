@@ -1,6 +1,6 @@
 # Welcome to Code Snippets
 
-Topics/Languages covered include C#, JavaScript, Python, Typescript and SQL. For more information regarding any of the code snippets please email me [here](mailto:tlngogodo@gmail.com).
+I will cover the following topics/languages: C#, JavaScript, Python, Typescript and SQL. For more information regarding any of the code snippets please email me [here](mailto:tlngogodo@gmail.com).
 
 ## About
 

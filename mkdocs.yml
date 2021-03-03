@@ -1,3 +1,9 @@
 site_name: Code Snippets
 markdown_extensions:
   - attr_list
+
+pages:
+- Home: 'index.md'
+- Code Snippets:
+    - 'JavaScript Query Strings': 'javascript query strings.md'
+

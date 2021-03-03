@@ -8,15 +8,16 @@ Topics/Languages covered include C#, JavaScript, Python, Typescript and SQL. For
 
 ### Trevor Ngogodo
 
+ Passionate about software development.  It gives me joy making a difference in peoples’ lives. building something that saves people time and prevents them from doing tedious tasks, Improving businesses through the digitization of business processes
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+#### Interests:
+ 
+ - Fin Tech
+ - IoT               
+ - Cloud Solutiond   
+ - AI  
+ - Hybrid Apps           
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+

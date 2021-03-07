@@ -45,7 +45,7 @@
 </li>
                                     
 <li>
-    <a href="../csharp%20get%20id/" class="dropdown-item">JavaScript Query Strings</a>
+    <a href="../csharp%20get%20id/" class="dropdown-item">Csharp Get ID</a>
 </li>
                                 </ul>
                             </li>
@@ -97,7 +97,7 @@
 <h2 id="how-to-read-and-store-values-in-a-query-string-javascript">How to read and store values in a query string - Javascript</h2>
 <p>Javascript method to read values contained in a query string</p>
 <ul>
-<li>function UrlVal(Value) {
+<li><code>function UrlVal(Value) {
     var WebPage = window.location.search.substring(1),
         PageVar = WebPage.split('&amp;'),
         VarName,
@@ -108,7 +108,7 @@
             return VarName[1] === undefined ? true : decodeURIComponent(VarName[1]);
         }
     }
-};` </li>
+};</code> </li>
 </ul>
 <p>Calling the above method and storing the value in a local variable</p>
 <ul>

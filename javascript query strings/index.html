@@ -43,6 +43,10 @@
 <li>
     <a href="./" class="dropdown-item active">JavaScript Query Strings</a>
 </li>
+                                    
+<li>
+    <a href="../csharp%20get%20id/" class="dropdown-item">JavaScript Query Strings</a>
+</li>
                                 </ul>
                             </li>
                         </ul>
@@ -59,7 +63,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
+                                <a rel="next" href="../csharp%20get%20id/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -93,22 +97,22 @@
 <h2 id="how-to-read-and-store-values-in-a-query-string-javascript">How to read and store values in a query string - Javascript</h2>
 <p>Javascript method to read values contained in a query string</p>
 <ul>
-<li><code>var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = window.location.search.substring(1),
-        sURLVariables = sPageURL.split('&amp;'),
-        sParameterName,
+<li>function UrlVal(Value) {
+    var WebPage = window.location.search.substring(1),
+        PageVar = WebPage.split('&amp;'),
+        VarName,
         i;
-    for (i = 0; i &lt; sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
-        if (sParameterName[0] === sParam) {
-            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+    for (i = 0; i &lt; PageVar.length; i++) {
+        VarName = PageVar[i].split('=');
+        if (VarName[0] === Value) {
+            return VarName[1] === undefined ? true : decodeURIComponent(VarName[1]);
         }
     }
-};</code> </li>
+};` </li>
 </ul>
 <p>Calling the above method and storing the value in a local variable</p>
 <ul>
-<li><code>var id = getUrlParameter('id');</code> </li>
+<li><code>var id = UrlVar('id');</code> </li>
 </ul>
 <p>Thank you</p>
 <p>Trevor Ngogodo</p></div>

@@ -6,4 +6,5 @@ pages:
 - Home: 'index.md'
 - Code Snippets:
     - 'JavaScript Query Strings': 'javascript query strings.md'
+    - 'JavaScript Query Strings': 'csharp get id.md'
 
